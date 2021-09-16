@@ -9,7 +9,7 @@ public class WithLambdaExpDemo {
  
         int width = 10;
  
-        // without lambda, Drawable implementation using anonymous class
+        // with lambda, Drawable implementation using anonymous class
         Drawable1 d=()-> {
  
             System.out.println("Drawing " + width);
