@@ -10,7 +10,7 @@ public class WithLambdaExpDemo1 {
 		 
         int a = 10;
         
-        // without lambda, square implementation using anonymous class
+        // with lambda, square implementation using anonymous class
         square d=()-> {
  
             System.out.println("square " + a*a);
